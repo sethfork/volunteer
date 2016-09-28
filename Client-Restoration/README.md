@@ -14,8 +14,6 @@ with the original/classic chain.
 
 https://github.com/ethereumproject/pyethereum/issues/6
 
-https://github.com/ethereumproject/ethereumj/issues/1
-
 https://github.com/ethereumproject/go-ethereum/issues/9
 
 https://github.com/ethereumproject/go-ethereum/issues/7
@@ -38,17 +36,20 @@ Leave project names the same unless there are namespace issues so the ETC client
 *If you have time please provide elaborate and provide additional
 details.*
 
+## Client Distribution
+
+The following public key is being used to sign pre-built binaries:
+
+[eric.somdahl@ethereumclassic.org](code_signing.asc)
+
+This key can also be retrieved from this URL:
+[https://api.bintray.com/orgs/ethereumproject/keys/gpg/public.key](https://api.bintray.com/orgs/ethereumproject/keys/gpg/public.key)
+
+[I affirm that I control the above keypair](message.txt.asc)
+
 # Bomb Defusal
 
 Bomb defusal organization is currently being organized in the following
 project:
 
-https://github.com/ethereumproject/thebomb
-
-## Related Issues
-
-https://github.com/ethereumproject/go-ethereum/issues/11
-
-## Related Pull Issues
-
-https://github.com/ethereumproject/go-ethereum/pull/12
+https://github.com/ethereumproject/volunteer/tree/master/Difficulty-Bomb-Defusal

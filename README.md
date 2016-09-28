@@ -12,7 +12,9 @@ If you are interested in community organizing, you can find more information abo
 
 Invitation link https://ethereumclassic.herokuapp.com/
 
-Channels: #development #website-design #dapps
+https://etcslack.herokuapp.com/
+
+Channels: #development #designx #dapps #contracts
 
 ### IRC 
 
@@ -53,7 +55,7 @@ As more people volunteer we can shift our focus, begin to close issues shared by
 
 A wide variety of projects need assistance, regardless of your experience, if you are interested, you should volunteer. A diversity of perspectives is important and anything you don't yet know, you can learn over time.
 
-### Ethereum Classic Clients
+### Ethereum Classic Core Projects
 
 Ethereum Classic Clients public board https://trello.com/b/aiSzWBm7/core-etc-development
 
@@ -67,17 +69,25 @@ https://github.com/ethereumproject/go-ethereum
 
 Go language implementation of the original/classic design of the Ethereum protocol. Go-ethereum is currently restored and under active development, other clients are in the restoration process or require volunteers to contribute to their restoration. 
 
-Contacts: IRC Server oftc.net, channel #etc-dev, contact @whatisgravity
+Development builds https://bintray.com/ethereumproject/GoEthereumClassic/go-ethereum/develop#files/
+
+Contacts: IRC Server oftc.net, channel #etc-dev, contact @whatisgravity, Slack @splix, @elaine
 
 **Bomb Defusal**
 
+ECIP-1010 Delay Difficulty Bomb Explosion - https://github.com/ethereumproject/ECIPs/blob/master/ECIPs/ECIP-1010.md
+
+Related issues:
+
+https://github.com/ethereumproject/ECIPs/issues/4
+
 https://github.com/ethereumproject/volunteer/issues/28
+
+https://github.com/ethereumproject/go-ethereum/issues/11
 
 Public board https://trello.com/b/ZuTNRTsW/etc-bomb-disposal
 
-Related issue https://github.com/ethereumproject/go-ethereum/issues/11
-
-Contacts: IRC Server oftc.net, channel #etc-dev @whatisgravity, Slack @dontpanicburns
+Contacts: IRC Server oftc.net, channel #etc-dev @whatisgravity, Slack @dontpanicburns, @splix, @elaine
 
 
 **Mist browser & wallet** 
@@ -99,7 +109,7 @@ Contacts:
 
 **EthereumJ**
 
-https://github.com/ethereumproject/ethereumj - Java implementation of the Ethereum Classic
+https://github.com/splix/ethereumj_classic - Java implementation of the Ethereum Classic
 
 Contacts: Slack - @splix, @bart
 
@@ -121,10 +131,20 @@ https://github.com/ethereumproject/etherjar - Lightweight Java client to Ethereu
 
 Contacts: Slack @splix, @eric.somdahl
 
+**Classic Ethereum Dapp UI Components**
+
+https://github.com/ethereumproject/classic-dapp-ui - Javascript and CSS UI components to build Dapps for Ethereum Classic. 
+
+Looking for developers, testers, designers and doc writers.
+
+Contacts: Slack - @splix
+
 
 ### Associated Projects
 
-**Blockchain Explorer** https://etherhub.io/
+Working on a project using ETC and looking for collaborators? Feel free to add it to this list.
+
+**Blockchain Explorer** http://explorer.etherhub.io
 
 ETC Block Explorer public board https://trello.com/b/W3ftl57z/etc-block-explorer-development 
 
@@ -138,21 +158,17 @@ https://github.com/ethereumproject/social-fork-analysis - A citizen journalism p
 
 Contacts: IRC Server oftc.net, channel #etc-dev, @whatisgravity
 
-**Open Oracle Project** 
+**ETC-CX-Wallet**
 
-https://github.com/ethereumproject/Open-Oracle-Project - Open Oracle project is a public utility to inject web/API data into the Ethereum Classic Blockchain to trigger smart contracts easily, securely and cheaply. Looking for volunteers that would like to be a part of this project.
+https://github.com/realcodywburns/ETC-CX-Wallet - Ethereum classic chrome extension wallet. This project is a sub-project of https://github.com/ethereumproject/etherwallet
 
-Key skills/expertise required:
+Contacts: Slack @dontpanicburns
 
-1. API's
-2. Backend
-3. Smart Contracts / Solidity
-4. Consensus Mechanisms/Algorithms
+**Tortuga**
 
-https://github.com/ethereumproject/volunteer/issues/16
+https://github.com/realcodywburns/tortuga - Localbitcoins for ETC traded on chain
 
-Contact: Slack @avtarsehra
-
+Contacts: Slack @dontpanicburns
 
 **Multisig Trust Contract**
 
@@ -161,22 +177,11 @@ and general enough to be repurposed for needs. This would allow donations to dev
 transparent way and access can be controlled by active developers who
 have built trust with the community. 
 
-
-**Visual smart contract language**
-
-https://github.com/ethereumclassic/README/issues/23
-
-Solidity is not well understood by general people specially lawyers of the future.
-
-A code generator that translates Ethereum Classic UML like smart contracts to Solidity language utilizing for example Acceleo and Papyrus plugins inside Eclipse would improve the issue. That is basically a model to text transformation whereas the model is UML and the text is Solidity code.
-
-In the end a model to text transformation powered by Acceleo Engine would be running to compile that in the backstage.
-
-Contacts: Slack @prophetdaniel
-
-
 ... more to come ...
 
+## Volunteer GPG Keys
+
+https://github.com/ethereumproject/volunteer/tree/master/Volunteer-Public-Keys - GPG keys of volunteers on the Ethereum Classic project
 
 ## Public Trello Boards
 
@@ -190,3 +195,4 @@ These boards are public and everyone can see the progress. Write access can be g
 
 * Ethereum Classic Clients public board https://trello.com/b/aiSzWBm7/core-etc-development
 * ETC Block Explorer public board https://trello.com/b/W3ftl57z/etc-block-explorer-development 
+* Ethereum Classic Marketing & Research Team https://trello.com/ethereumclassicmr
